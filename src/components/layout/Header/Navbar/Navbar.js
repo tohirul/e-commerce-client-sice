@@ -23,7 +23,7 @@ const Navbar = () => {
                         <p>Contact</p>
                     </li>
                     <li>
-                        <p>Sales</p>
+                        <p>On sale</p>
                     </li>
                     <li>
                         <p>My Account</p>

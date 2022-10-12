@@ -3,6 +3,7 @@ import "./Header.css";
 import TopNav from "./TopNav/TopNav";
 import Navbar from "./Navbar/Navbar";
 import BotNav from "./BotNav/BotNav";
+import Slider from "./Slider/Slider";
 
 const Header = () => {
     return (
@@ -10,6 +11,7 @@ const Header = () => {
             <TopNav />
             <Navbar />
             <BotNav />
+            <Slider />
         </div>
     );
 };
