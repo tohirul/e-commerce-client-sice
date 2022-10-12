@@ -1,8 +1,17 @@
 import React from "react";
 import "./Header.css";
+import TopNav from "./TopNav/TopNav";
+import Navbar from "./Navbar/Navbar";
+import BotNav from "./BotNav/BotNav";
 
 const Header = () => {
-    return <div></div>;
+    return (
+        <div className="header">
+            <TopNav />
+            <Navbar />
+            <BotNav />
+        </div>
+    );
 };
 
 export default Header;

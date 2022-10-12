@@ -1,0 +1,62 @@
+/* Css styling for top bar */
+.top-nav {
+    background-color: #00af9e;
+    display: flex;
+    justify-content: space-around;
+
+    font-size: 0.9rem;
+    font-weight: bold;
+
+    border: 0.5px solid #80d7cf;
+}
+
+/* Social Icons */
+
+.top-nav .social-icons ul {
+    display: flex;
+    border-right: 0.5px solid #80d7cf;
+    border-left: 0.5px solid #80d7cf;
+}
+
+.top-nav .social-icons ul li {
+    height: 40px;
+    width: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    list-style: none;
+
+    border: 0.5px solid #80d7cf;
+}
+
+ul li .social-icon {
+    color: #80d7cf;
+}
+
+/* Site Settings */
+.top-nav .site-settings ul {
+    display: flex;
+    color: #80d7cf;
+
+    border-right: 0.5px solid #80d7cf;
+    border-left: 0.5px solid #80d7cf;
+}
+
+.top-nav .site-settings ul li {
+    height: 40px;
+    padding: 0 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    list-style: none;
+
+    border: 0.5px solid #80d7cf;
+}
+
+.top-nav .site-settings ul li p {
+    padding-bottom: 4px;
+}

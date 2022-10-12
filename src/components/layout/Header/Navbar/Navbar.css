@@ -1,0 +1,30 @@
+nav {
+    height: 5.625rem;
+    width: 100vw;
+
+    background-color: #00af9e;
+    color: azure;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+nav .logo {
+    margin: 0.689rem 0;
+}
+
+nav .nav-sec ul {
+    display: flex;
+    align-items: center;
+}
+
+nav .nav-sec ul li {
+    margin: 0 3px;
+    padding: 0 15px;
+
+    list-style: none;
+}
