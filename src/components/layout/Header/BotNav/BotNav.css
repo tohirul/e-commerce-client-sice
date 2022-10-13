@@ -73,60 +73,19 @@
     width: 100%;
     padding: 0.6rem 0;
     padding-left: 2rem;
-    transition: all 1s;
     border: 1px solid #009788;
+    transition: all 1s ease-in-out;
 }
 
 .category-options li:hover {
     color: black;
-    background-color: #1aa294;
+    background-color: #80d7cf;
     border: 1px solid white;
 }
 
 .category-options li:last-of-type {
     padding-bottom: 1rem;
 }
-
-/* 
-.category ul {
-    display: flex;
-    flex-direction: column;
-}
-
-.category ul li {
-    padding: 10px 5px;
-
-    list-style: none;
-}
-
-.category .select-category {
-     width: 10rem; 
-}
-
-.category .category-options {
-    width: 10rem;
-    margin: 0 2rem; 
-    /* margin-left: -2px;
-    display: none;
-
-    position: absolute;
-    left: 0;
-    right: 100;
-    background-color: #009788;
-
-    border-top: 1px solid #80d7cf;
-    transition: 3s ease;
-}
-
-.select-category:hover ~ .category-options {
-    display: block;
-}
-
-.category .category-options li {
-    border: 0.5px solid #80d7cf;
-    border-right-width: 2px;
-    border-left-width: 2px;
-} */
 
 /* -----
     SearchBar Section
