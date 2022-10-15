@@ -1,0 +1,21 @@
+.rightFooter {
+    width: 20%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rightFooter > h4 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", "Arial", sans-serif;
+    font-size: 1.4vmax;
+    text-decoration: underline;
+    color: white;
+}
+
+.rightFooter > p {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", "Arial", sans-serif;
+    font-size: 0.8vmax;
+    color: white;
+    margin: 0.5vmax;
+}

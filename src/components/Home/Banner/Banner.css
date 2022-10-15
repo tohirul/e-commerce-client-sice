@@ -1,0 +1,11 @@
+.event-banner {
+    margin: 2vmax auto;
+    padding: 1vmax auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .overlay {
+}

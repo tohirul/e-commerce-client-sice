@@ -1,0 +1,16 @@
+.midFooter {
+    width: 60%;
+    text-align: center;
+}
+
+.midFooter > h1 {
+    font-size: 2vmax;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", "Arial", sans-serif;
+    color: crimson;
+}
+
+.midFooter > p {
+    max-width: 60%;
+    font-size: 1vmax;
+    margin: 1vmax auto;
+}
