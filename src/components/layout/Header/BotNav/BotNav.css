@@ -30,11 +30,12 @@
 .category .select-category li {
     position: relative;
 
+    text-align: center;
     list-style: none;
 }
 
 .category .select-category li .category-options {
-    width: 200px;
+    width: 240px;
     padding-top: 0.6rem;
     /* margin-left: 5px; */
     /* padding-bottom: 0; */
@@ -72,9 +73,10 @@
 .category-options li {
     width: 100%;
     padding: 0.6rem 0;
-    padding-left: 2rem;
+    /* padding-left: 2rem; */
     border: 1px solid #009788;
     transition: all 0.5s ease-in-out;
+    text-align: start;
 }
 
 .category-options li:hover {
@@ -120,7 +122,7 @@
 
 .cart-options .cart-icon {
     width: 4rem;
-    padding: 10px 5px;
+    padding: 12px 15px;
 
     position: relative;
 

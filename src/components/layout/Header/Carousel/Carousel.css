@@ -1,6 +1,6 @@
 .carousel {
     width: 100%;
-    height: 76.5vh;
+    height: 78.5vh;
 
     position: relative;
     overflow: hidden;
@@ -16,6 +16,7 @@
 .carousel .slider img {
     width: 100%;
     height: 100%;
+    transform: scale(1);
     animation: zoom 4s linear infinite;
 }
 
@@ -25,7 +26,7 @@
     }
 
     50% {
-        transform: scale(1.2);
+        transform: scale(1.05);
     }
 
     100% {
@@ -35,7 +36,7 @@
 
 .carousel .overlay {
     width: 100%;
-    height: 76.5vh;
+    height: 78.5vh;
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7));
     position: absolute;
     top: 0;
